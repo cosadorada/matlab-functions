@@ -1,6 +1,6 @@
 function [output,runs] = binarysearch(lower,upper,fn,tol)
 % BINARYSEARCH This function performs a binary search between suitable upper and lower
-% to find a root, for the given expression f(x).
+% bounds to find a root, for the given expression f(x).
     a = lower;
     b = upper;
     i = 0;
